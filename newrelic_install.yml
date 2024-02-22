@@ -1,0 +1,14 @@
+# newrelic_install.yml
+---
+- name: Install New Relic Infrastructure
+  hosts: server
+  become: true
+  roles:
+    - newrelic.newrelic_install
+  environment:
+    NEW_RELIC_API_KEY: "{{ lookup('env', 'NEW_RELIC_API_KEY') }}"
+    NEW_RELIC_ACCOUNT_ID: "{{ lookup('env', 'NEW_RELIC_ACCOUNT_ID') }}"
+  vars:
+    targets:
+      - infrastructure
+      - logs

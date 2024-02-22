@@ -1,0 +1,9 @@
+---
+- name: Start Prometheus service
+  systemd:
+    name: "{{ service }}"
+    state: started
+    enabled: yes
+  notify:
+    - restart "{{ service }}"
+

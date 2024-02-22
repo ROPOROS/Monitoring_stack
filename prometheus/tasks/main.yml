@@ -1,0 +1,13 @@
+---
+- name: Include create_user tasks
+  import_tasks: create_user.yml
+
+- name: Include install tasks
+  import_tasks: install.yml
+
+- name: Include configure tasks
+  import_tasks: configure.yml
+
+- name: Include prometheus_status tasks
+  import_tasks: prometheus_status.yml
+

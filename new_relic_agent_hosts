@@ -1,0 +1,2 @@
+[server]
+192.168.12.172 ansible_port=22 ansible_ssh_user=root

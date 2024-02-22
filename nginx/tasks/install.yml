@@ -1,0 +1,9 @@
+---
+- name: Update yum cache
+  yum:
+    update_cache: yes
+
+- name: Install Nginx
+  yum:
+    name: "{{ service }}"
+    state: present

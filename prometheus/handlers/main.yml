@@ -1,0 +1,6 @@
+---
+# handlers file for prometheus
+- name: Restart Prometheus service
+  systemd:
+    name: "{{ service }}"
+    state: restarted
