@@ -15,7 +15,7 @@
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
 
 ---
 
@@ -64,7 +64,7 @@ The implemented observability stack included:
 5. Alerts trigger based on pre-defined thresholds (response time, CPU, memory).
 
 <p align="center">
-  <img src="/nr.png" alt="CI/CD Architecture" width="750">
+  <img src="/nr.png" alt="Architecture" width="750">
 </p>
 
 
