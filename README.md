@@ -63,7 +63,9 @@ The implemented observability stack included:
 4. Dashboards display live metrics, errors, and throughput.  
 5. Alerts trigger based on pre-defined thresholds (response time, CPU, memory).
 
-
+<p align="center">
+  <img src="/nr.png" alt="Architecture" width="750">
+</p>
 
 
 ---
